@@ -7,6 +7,8 @@ ARRUMAR O RESPONSIVO , POIS O CSS ESTÁ DIFERENTE DO PROJETO ORIGINAL*/
 
 @media(max-width: 750px){
     .pokedev{
+        display: flex;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
         padding: 30px 0;
@@ -26,7 +28,8 @@ ARRUMAR O RESPONSIVO , POIS O CSS ESTÁ DIFERENTE DO PROJETO ORIGINAL*/
     }
 
     .lista {
-        max-width: 360px;
+        display: flex;
+        justify-content: center;
     }
 
     .lista .pokedev {
@@ -38,12 +41,9 @@ ARRUMAR O RESPONSIVO , POIS O CSS ESTÁ DIFERENTE DO PROJETO ORIGINAL*/
     }
 
     .lista ul {
-        position: relative;
-        top: 550px;
-        right: 200px;
+        display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: 8px;
     }
 }
-
